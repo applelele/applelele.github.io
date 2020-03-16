@@ -1,11 +1,11 @@
 # Site settings
-author: YUKIKO IKEDA
-title: 
+author: Yukiko Ikeda
+title: Software Engineering Course
 header-img: img/home-bg.png
 email: applelele@gmail.com
-copyright_name: YUKIKO IKEDA
+copyright_name: Yukiko Ikeda
 description: > # this means to ignore newlines until "baseurl:"
-  
+  What I have learnt
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  applelele
