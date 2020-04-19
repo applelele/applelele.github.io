@@ -1,25 +1,25 @@
 ---
 layout: post
 title:      "Double pipe operator"
-date:       2020-04-19 03:12:51 +0000
+date:       2020-04-18 23:12:52 -0400
 permalink:  double_pipe_operator
 ---
 
 
-In ruby operators, these are conditional assignments such as ||= I see the first time. What is it?
+In ruby operators, these are conditional assignments such as `||=` I see the first time. What is it?
 
-= is an assignment operator
+`=` is an assignment operator
 
-|| is "double-pipe" which represents "OR"
+`||` is "double-pipe" which represents "OR"
 
-so what could ||= "double-pipe-equal" be?
+so what could `||=` "double-pipe-equal" be?
 
-a += b translates to a = a + b
+`a += b` translates to `a = a + b`
 
-a ||= b can be considered to translates to a || a = b buta ||= b is entirely different ideas and are implemented entirely differently. 
-Actually a ||= b is equal to a = a || b
+`a ||= b` can be considered to translates to `a || a = b` but `a ||= b` is entirely different ideas and are implemented entirely differently. 
+Actually `a ||= b` is equal to `a = a || b`
 
-It means if a is undefined or false, then evaluateb  and set toa the result. If the left-hand side of the || comparison is true, there's no need to check the right-hand side.
+It means if `a` is undefined or false, then evaluate `b` and set to `a` the result. If the left-hand side of the `||` comparison is true, there's no need to check the right-hand side.
 Here are examples;
 
 ```
