@@ -29,7 +29,7 @@ a = b
 a # => 20
 ```
 
-The code above, a is set to nil and b is assigned to a. If we use double-pipe equal below
+The code above, `a` is set to `nil` and `b` is assigned to `a`. If we use double-pipe equal below
 
 ```
 a = nil
@@ -48,7 +48,7 @@ a = b
 a # => 20
 ```
 
-However, using a ||= b, a can keep its original value.
+However, using `a ||= b`, `a` can keep its original value.
 
 ```
 a = 2
@@ -57,7 +57,7 @@ a ||= b
 a # => 2
 ```
 
-||= is useful when we want to add values to the key that is already existing. The following code is what we achieved without ||=.
+`||=` is useful when we want to add values to the key that is already existing. The following code is what we achieved without `||=`.
 
 ```
 class School
@@ -88,7 +88,7 @@ end
 ```
 
 
-With ||=, the code will be ;
+With `||=`, the code will be ;
 
 ```
 class School
